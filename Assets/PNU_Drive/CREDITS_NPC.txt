@@ -1,0 +1,17 @@
+PNU Drive — NPC 차·사람 에셋 출처 (v14)
+
+차
+- "Traffic Car Pack" — MaG80 (Sketchfab), CC BY 4.0. 재질을 팔레트 한 장으로 바꾸고 크기·원점·등 면을 나눔(PNU_Vehicles.fbx 의 VEH_M00~M10)
+- "Free Low Poly Vehicles Pack" — Raphael Gonçalves (Rgsdev), CC0. 같은 방식으로 바꿈(VEH_R_*)
+
+사람 (Renderpeople, Sketchfab, CC BY 4.0, NoAI: 생성형 AI 학습·입력에 쓰면 안 됨)
+- "Nathan Animated 003 - Walking 3D Man" — Renderpeople — https://sketchfab.com/3d-models/nathan-animated-003-walking-3d-man-143a2b1ea5eb4385ae90a73657aca3bc
+- "Sophia Animated 003 - Animated 3D Woman" — Renderpeople — https://sketchfab.com/3d-models/sophia-animated-003-animated-3d-woman-dc448c3be0e74f96a55fb475a13433cf
+- "Claudia Rigged 002 - 3D Rigged Business Women" — Renderpeople (Sketchfab)
+  유니티에서 Humanoid 로 가져와 걷기(Nathan)·서기(Sophia) 동작을 함께 씀. 모델 파일은 바꾸지 않음
+
+CC BY 4.0: https://creativecommons.org/licenses/by/4.0/  ·  CC0: https://creativecommons.org/publicdomain/zero/1.0/
+
+글꼴(5/6 화면)
+- 나눔바른고딕 NanumBarunGothic · NanumBarunGothicBold — NAVER Corporation, SIL Open Font License 1.1 (Fonts/OFL_NanumBarunGothic.txt). 원본 파일 그대로
+아이콘·UI 그림(UI/)은 코드로 직접 그림(cw: ui_assets.py)

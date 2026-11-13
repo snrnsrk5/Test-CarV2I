@@ -1,0 +1,13 @@
+﻿section A_Campus
+section B_Jungangdaero
+section C_YunsanTunnel
+section D_Beonyeongro
+section E_Suyeonggang
+section F_Centum
+section G_GwanganBridge
+section H_Namcheon_PKNU
+signals car 119 ped 302
+signs on 100 signals, ped snapped 71
+tesla: materials 51, wheel True, wheels True/True, glass True
+captures 10
+driver captures 4

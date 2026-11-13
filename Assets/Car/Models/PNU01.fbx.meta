@@ -1,0 +1,369 @@
+fileFormatVersion: 2
+guid: 8c6eb454851150a458f2a18a59577f9e
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_ADSMarker
+    second: {fileID: 2100000, guid: d16ddddc6bd6e334b841b017842bd54f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_Accent
+    second: {fileID: 2100000, guid: 95093d4e2602b994881eb9c1d7bacd99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_Alu
+    second: {fileID: 2100000, guid: 21595accc58e91e409fbb9ed8311eab1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_BlackChrome
+    second: {fileID: 2100000, guid: 228ad7fc8d7144d4c9683833ab2e59ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_BlackGloss
+    second: {fileID: 2100000, guid: d6a19300d64da3a4baeb0bd300076e84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_BlackSatin
+    second: {fileID: 2100000, guid: e704307c416e0cd4e968c18c98c77fd7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_BrakeDisc
+    second: {fileID: 2100000, guid: 1815f4474b6c3c140b656c1800452e4c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_Caliper
+    second: {fileID: 2100000, guid: 18bee9985bd09b24bb7221016a2a94e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_Carpet
+    second: {fileID: 2100000, guid: 666b022a55c9ad54db4135426f6af08f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_DRL
+    second: {fileID: 2100000, guid: 38d6aa9b0a3a2094eaf25ef8447e04b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_DecalAccent
+    second: {fileID: 2100000, guid: c0c6e361f8db48d44b0f6687789a1610, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_DecalWhite
+    second: {fileID: 2100000, guid: c832a84d5c4313345aad30dc17898eab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_EStop
+    second: {fileID: 2100000, guid: 4b524a63d1df0144b9d94e20febdb11a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_EStopBase
+    second: {fileID: 2100000, guid: b886e890d1898af4285166f546f95661, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_Gasket
+    second: {fileID: 2100000, guid: 9e9ed5f410b12c243984f76c524cd60e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_Glass
+    second: {fileID: 2100000, guid: a3f26c3a6df28ef4ea88008295bdef3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_GlassFrit
+    second: {fileID: 2100000, guid: 59697048762674e47b72515ea85aebfd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_Headliner
+    second: {fileID: 2100000, guid: ddee04a8821c6b44d8166ddabc7d4146, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_Interior
+    second: {fileID: 2100000, guid: a8318ab93eb48cc4cb93d2a1ac88ab76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_InteriorSoft
+    second: {fileID: 2100000, guid: 4a4d8b4bceb3db14fb38954f8b3d0c8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_LampHousing
+    second: {fileID: 2100000, guid: f28144d6cc565b44da915f7b36c8092e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_LampInner
+    second: {fileID: 2100000, guid: cb8370a0bf6f7fa4a93c7b4d4c13bad7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_LampLens
+    second: {fileID: 2100000, guid: be86d5b95148b4046995db9b8af2ac8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_LampRed
+    second: {fileID: 2100000, guid: 3fdc790387758a4488af2932abee5536, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_LampReflector
+    second: {fileID: 2100000, guid: f045f3e2c3d67a74184c9012e1e0544e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_Lens
+    second: {fileID: 2100000, guid: 8005ea9ccfcce3041bb460690ab614c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_LensRing
+    second: {fileID: 2100000, guid: 29eb25c96113b504e863be54bf4a01e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_LogoFront
+    second: {fileID: 2100000, guid: a024d101c6fdd7445a0fc9f38dbcd4c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_LogoRear
+    second: {fileID: 2100000, guid: ab80c1cda87b50d4394ee01e5606b093, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_Paint
+    second: {fileID: 2100000, guid: 116d29c25d7f5ca4cb0db864af7e667c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_PlateFront
+    second: {fileID: 2100000, guid: 9728c6a7ffa86ac4983a3f7452edee8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_PlateRear
+    second: {fileID: 2100000, guid: 4783ec99f666ada4f97a2c2f18fc552c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_ProjLens
+    second: {fileID: 2100000, guid: b345faf5aadf57e498c0aa5e5df8031a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_Radome
+    second: {fileID: 2100000, guid: 05a20c37630b9114e8312b9e8344c8b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_RimDark
+    second: {fileID: 2100000, guid: 37c2480ff6602ac46b66e53d37c57208, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_RimGlossBlack
+    second: {fileID: 2100000, guid: 14829c68126b5de4194cbf04f22b0640, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_RimGunmetal
+    second: {fileID: 2100000, guid: aeacc0e88790f9b40841e19e7bb26c1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_RimMachined
+    second: {fileID: 2100000, guid: 76514c8c80200da40a2b778ee78550f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_RimSilver
+    second: {fileID: 2100000, guid: a5dcf6b7bcc328c4dad71431e7e933c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_RoofGlass
+    second: {fileID: 2100000, guid: 5fd4a386606e0a1479d031d8e11097aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_SatinAlu
+    second: {fileID: 2100000, guid: 06ae3469655633842a313192e4da26b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_Screen
+    second: {fileID: 2100000, guid: b2ccf27b419271d468a329b25652f0c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_Seat
+    second: {fileID: 2100000, guid: 40ff6a237e718b344a846284f6d13291, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_SeatAccent
+    second: {fileID: 2100000, guid: 5e07ade4318fd644ead47f1fd5319752, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_SensorBlack
+    second: {fileID: 2100000, guid: 51f7a81644cfa3a4ab1440d5ce16d404, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_SensorWhite
+    second: {fileID: 2100000, guid: cd0174c3ad71ea74cab4d9a521cbd2fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_SensorWindow
+    second: {fileID: 2100000, guid: 22f93480775eb0e4f839149557ce589a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_Tire
+    second: {fileID: 2100000, guid: b95ecadea59fc564a8eb26d90f8a8bb8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_TrimDark
+    second: {fileID: 2100000, guid: 0ef05e10689602a4ba30e990fa2cabf3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_TrimDarkChrome
+    second: {fileID: 2100000, guid: 1c51aec1c0f1c3242bc31bfd19a04fad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_VisorGlass
+    second: {fileID: 2100000, guid: e453e83aad743df4dabcd5b2cb835faa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AV_WheelWell
+    second: {fileID: 2100000, guid: 80fe49f14c1051f418702a6efaab81b7, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

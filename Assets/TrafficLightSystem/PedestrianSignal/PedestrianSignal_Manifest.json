@@ -1,0 +1,325 @@
+{
+  "source": "C:\\Users\\ajkim\\Documents\\Codex\\2026-11-11\\2\\outputs\\PedestrianSignal.blend",
+  "sourceHash": "c988465ac86c3f42bd44dcdbb0f9214d1599ef03d31735475c8352e51712c10a",
+  "materials": [
+    {
+      "name": "#0D0D0DFF",
+      "baseColor": [
+        0.004024690017104149,
+        0.004024721682071686,
+        0.004024719353765249,
+        1.0
+      ],
+      "metallic": 0.08206687122583389,
+      "roughness": 0.5,
+      "baseTexture": "",
+      "normalTexture": ""
+    },
+    {
+      "name": "Button | satin face",
+      "baseColor": [
+        0.7200000286102295,
+        0.75,
+        0.6499999761581421,
+        1.0
+      ],
+      "metallic": 0.4000000059604645,
+      "roughness": 0.30000001192092896,
+      "baseTexture": "",
+      "normalTexture": ""
+    },
+    {
+      "name": "Button | yellow ring",
+      "baseColor": [
+        0.949999988079071,
+        0.550000011920929,
+        0.017999999225139618,
+        1.0
+      ],
+      "metallic": 0.05000000074505806,
+      "roughness": 0.36000001430511475,
+      "baseTexture": "",
+      "normalTexture": ""
+    },
+    {
+      "name": "Frozen white metal",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 1.0,
+      "roughness": 0.5,
+      "baseTexture": "Metal_BaseColor.png",
+      "normalTexture": "Metal_Normal.png"
+    },
+    {
+      "name": "Gray Plastic (Plastic)",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 0,
+      "roughness": 0.5,
+      "baseTexture": "Plastic_BaseColor.png",
+      "normalTexture": ""
+    },
+    {
+      "name": "Guard | diagonal yellow and black",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.47999998927116394,
+      "baseTexture": "Guard_BaseColor.png",
+      "normalTexture": ""
+    },
+    {
+      "name": "Hardware | black guard",
+      "baseColor": [
+        0.008999999612569809,
+        0.012000000104308128,
+        0.013000000268220901,
+        1.0
+      ],
+      "metallic": 0.05000000074505806,
+      "roughness": 0.6200000047683716,
+      "baseTexture": "",
+      "normalTexture": ""
+    },
+    {
+      "name": "Hardware | charcoal powder coat",
+      "baseColor": [
+        0.013000000268220901,
+        0.017000000923871994,
+        0.019999999552965164,
+        1.0
+      ],
+      "metallic": 0.5,
+      "roughness": 0.36000001430511475,
+      "baseTexture": "",
+      "normalTexture": ""
+    },
+    {
+      "name": "Hardware | stainless steel",
+      "baseColor": [
+        0.41999998688697815,
+        0.4699999988079071,
+        0.5,
+        1.0
+      ],
+      "metallic": 0.8500000238418579,
+      "roughness": 0.27000001072883606,
+      "baseTexture": "",
+      "normalTexture": ""
+    },
+    {
+      "name": "Traffic Light_Off",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 1.0,
+      "baseTexture": "Signal_BaseColor.png",
+      "normalTexture": ""
+    },
+    {
+      "name": "Traffic Light_On",
+      "baseColor": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 1.0,
+      "baseTexture": "Signal_BaseColor.png",
+      "normalTexture": ""
+    }
+  ],
+  "meshCount": 40,
+  "objectCount": 43,
+  "objects": [
+    {
+      "name": "Cylinder005.0",
+      "parent": "TrafficLight_Human_Shape.001"
+    },
+    {
+      "name": "Cylinder005.002",
+      "parent": "TrafficLight_Human_Shape"
+    },
+    {
+      "name": "Guard retaining band 4",
+      "parent": "PedestrianSignal_ROOT"
+    },
+    {
+      "name": "Off_RedH",
+      "parent": "TrafficLight_Human_Shape"
+    },
+    {
+      "name": "Off_RedHN",
+      "parent": "TrafficLight_Human_Shape.001"
+    },
+    {
+      "name": "On_Green_T1",
+      "parent": "TrafficLight_Human_Shape"
+    },
+    {
+      "name": "On_Green_T2",
+      "parent": "TrafficLight_Human_Shape"
+    },
+    {
+      "name": "On_Green_T3",
+      "parent": "TrafficLight_Human_Shape"
+    },
+    {
+      "name": "On_Green_T4",
+      "parent": "TrafficLight_Human_Shape"
+    },
+    {
+      "name": "On_Green_T5",
+      "parent": "TrafficLight_Human_Shape"
+    },
+    {
+      "name": "On_Green_T6",
+      "parent": "TrafficLight_Human_Shape"
+    },
+    {
+      "name": "On_Green_T7",
+      "parent": "TrafficLight_Human_Shape"
+    },
+    {
+      "name": "On_Green_T8",
+      "parent": "TrafficLight_Human_Shape"
+    },
+    {
+      "name": "On_Green_T9",
+      "parent": "TrafficLight_Human_Shape"
+    },
+    {
+      "name": "On_GreenH",
+      "parent": "TrafficLight_Human_Shape"
+    },
+    {
+      "name": "On_GreenHN",
+      "parent": "TrafficLight_Human_Shape.001"
+    },
+    {
+      "name": "On_GreenHN_1c",
+      "parent": "TrafficLight_Human_Shape.001"
+    },
+    {
+      "name": "On_GreenHN_1lt",
+      "parent": "TrafficLight_Human_Shape.001"
+    },
+    {
+      "name": "On_GreenHN_1lu",
+      "parent": "TrafficLight_Human_Shape.001"
+    },
+    {
+      "name": "On_GreenHN_1rt",
+      "parent": "TrafficLight_Human_Shape.001"
+    },
+    {
+      "name": "On_GreenHN_1ru",
+      "parent": "TrafficLight_Human_Shape.001"
+    },
+    {
+      "name": "On_GreenHN_1t",
+      "parent": "TrafficLight_Human_Shape.001"
+    },
+    {
+      "name": "On_GreenHN_1u",
+      "parent": "TrafficLight_Human_Shape.001"
+    },
+    {
+      "name": "On_GreenHN_2c",
+      "parent": "TrafficLight_Human_Shape.001"
+    },
+    {
+      "name": "On_GreenHN_2lt",
+      "parent": "TrafficLight_Human_Shape.001"
+    },
+    {
+      "name": "On_GreenHN_2lu",
+      "parent": "TrafficLight_Human_Shape.001"
+    },
+    {
+      "name": "On_GreenHN_2rt",
+      "parent": "TrafficLight_Human_Shape.001"
+    },
+    {
+      "name": "On_GreenHN_2ru",
+      "parent": "TrafficLight_Human_Shape.001"
+    },
+    {
+      "name": "On_GreenHN_2t",
+      "parent": "TrafficLight_Human_Shape.001"
+    },
+    {
+      "name": "On_GreenHN_2u",
+      "parent": "TrafficLight_Human_Shape.001"
+    },
+    {
+      "name": "PedestrianSignal_ROOT",
+      "parent": null
+    },
+    {
+      "name": "Pole | Original base and shortened shaft",
+      "parent": "PedestrianSignal_ROOT"
+    },
+    {
+      "name": "Signal mount | clamp screw",
+      "parent": "PedestrianSignal_ROOT"
+    },
+    {
+      "name": "Signal mount | clamp screw.001",
+      "parent": "PedestrianSignal_ROOT"
+    },
+    {
+      "name": "Signal mount | clamp screw.002",
+      "parent": "PedestrianSignal_ROOT"
+    },
+    {
+      "name": "Signal mount | clamp screw.003",
+      "parent": "PedestrianSignal_ROOT"
+    },
+    {
+      "name": "Signal mount | clamp screw.004",
+      "parent": "PedestrianSignal_ROOT"
+    },
+    {
+      "name": "Signal mount | clamp screw.005",
+      "parent": "PedestrianSignal_ROOT"
+    },
+    {
+      "name": "Signal mount | stainless pole band",
+      "parent": "PedestrianSignal_ROOT"
+    },
+    {
+      "name": "Signal mount | stainless pole band.001",
+      "parent": "PedestrianSignal_ROOT"
+    },
+    {
+      "name": "Signal mount | stainless pole band.002",
+      "parent": "PedestrianSignal_ROOT"
+    },
+    {
+      "name": "TrafficLight_Human_Shape",
+      "parent": "PedestrianSignal_ROOT"
+    },
+    {
+      "name": "TrafficLight_Human_Shape.001",
+      "parent": "PedestrianSignal_ROOT"
+    }
+  ]
+}

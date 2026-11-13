@@ -1,0 +1,102 @@
+{
+ "mats": [
+  {
+   "name": "veg_bark-1_baseColor",
+   "tex": "veg_bark-1_baseColor",
+   "normal": "",
+   "cutoff": 0.5,
+   "smooth": 0.08,
+   "clip": false,
+   "both": false,
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "veg_pngaaa.com-3905963_baseColor",
+   "tex": "veg_pngaaa.com-3905963_baseColor",
+   "normal": "",
+   "cutoff": 0.4678109495190842,
+   "smooth": 0.12,
+   "clip": true,
+   "both": true,
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "tree2_TP23_Trunk_baseColor",
+   "tex": "tree2_TP23_Trunk_baseColor",
+   "normal": "tree2_TP23_Trunk_baseColor_n",
+   "cutoff": 0.5,
+   "smooth": 0.08,
+   "clip": false,
+   "both": false,
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "tree2_TP23_Leaf_baseColor",
+   "tex": "tree2_TP23_Leaf_baseColor",
+   "normal": "",
+   "cutoff": 0.4289606396637787,
+   "smooth": 0.12,
+   "clip": true,
+   "both": true,
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "veg_bark-2_baseColor",
+   "tex": "veg_bark-2_baseColor",
+   "normal": "",
+   "cutoff": 0.5,
+   "smooth": 0.08,
+   "clip": false,
+   "both": false,
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "veg_pngaaa.com-2004453_baseColor",
+   "tex": "veg_pngaaa.com-2004453_baseColor",
+   "normal": "",
+   "cutoff": 0.6811449330131292,
+   "smooth": 0.12,
+   "clip": true,
+   "both": true,
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "impostors",
+   "tex": "tree_impostors",
+   "normal": "",
+   "cutoff": 0.45,
+   "smooth": 0.05,
+   "clip": true,
+   "both": true,
+   "color": [
+    0.92,
+    0.92,
+    0.92
+   ]
+  }
+ ]
+}

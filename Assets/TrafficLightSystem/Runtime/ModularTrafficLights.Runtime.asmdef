@@ -1,0 +1,6 @@
+{
+  "name": "ModularTrafficLights.Runtime",
+  "rootNamespace": "ModularTrafficLights",
+  "references": [],
+  "autoReferenced": true
+}

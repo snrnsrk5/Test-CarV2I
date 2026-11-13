@@ -1,0 +1,569 @@
+{
+ "palette": {
+  "grid": 8,
+  "slots": {
+   "paint": 0,
+   "glass": 1,
+   "black": 2,
+   "grill": 3,
+   "rim": 4,
+   "rubber": 5,
+   "head": 6,
+   "lglass": 7,
+   "rear": 8,
+   "ind": 9,
+   "white": 10,
+   "grey": 11,
+   "taxi": 12,
+   "busblue": 13,
+   "truckblue": 14,
+   "red": 15
+  }
+ },
+ "vehicles": [
+  {
+   "name": "VEH_M00",
+   "kind": "car",
+   "weight": 1.0,
+   "fixed": false,
+   "length": 4.5,
+   "width": 2.0,
+   "height": 1.629,
+   "front": 2.31,
+   "rear": 2.19,
+   "wheelR": 0.349,
+   "wheelbase": 2.547,
+   "wheels": [
+    "Wheel_FL",
+    "Wheel_FR",
+    "Wheel_RL",
+    "Wheel_RR"
+   ],
+   "lights": [
+    "Blink_L",
+    "Blink_R",
+    "Light_L",
+    "Light_R"
+   ],
+   "tris_lod0": 7962,
+   "tris_lod1": 2387,
+   "flip": false
+  },
+  {
+   "name": "VEH_M01",
+   "kind": "suv",
+   "weight": 1.0,
+   "fixed": false,
+   "length": 4.527,
+   "width": 2.0,
+   "height": 1.817,
+   "front": 2.352,
+   "rear": 2.175,
+   "wheelR": 0.376,
+   "wheelbase": 2.707,
+   "wheels": [
+    "Wheel_FL",
+    "Wheel_FR",
+    "Wheel_RL",
+    "Wheel_RR"
+   ],
+   "lights": [
+    "Blink_L",
+    "Blink_R",
+    "Light_L",
+    "Light_R"
+   ],
+   "tris_lod0": 8776,
+   "tris_lod1": 2631,
+   "flip": false
+  },
+  {
+   "name": "VEH_M02",
+   "kind": "car",
+   "weight": 1.0,
+   "fixed": false,
+   "length": 4.626,
+   "width": 2.0,
+   "height": 1.487,
+   "front": 2.174,
+   "rear": 2.452,
+   "wheelR": 0.341,
+   "wheelbase": 2.783,
+   "wheels": [
+    "Wheel_FL",
+    "Wheel_FR",
+    "Wheel_RL",
+    "Wheel_RR"
+   ],
+   "lights": [
+    "Blink_L",
+    "Blink_R",
+    "Light_L",
+    "Light_R"
+   ],
+   "tris_lod0": 8769,
+   "tris_lod1": 2630,
+   "flip": false
+  },
+  {
+   "name": "VEH_M03",
+   "kind": "car",
+   "weight": 1.0,
+   "fixed": false,
+   "length": 4.546,
+   "width": 2.0,
+   "height": 1.473,
+   "front": 2.286,
+   "rear": 2.261,
+   "wheelR": 0.333,
+   "wheelbase": 2.662,
+   "wheels": [
+    "Wheel_FL",
+    "Wheel_FR",
+    "Wheel_RL",
+    "Wheel_RR"
+   ],
+   "lights": [
+    "Blink_L",
+    "Blink_R",
+    "Light_L",
+    "Light_R"
+   ],
+   "tris_lod0": 12469,
+   "tris_lod1": 3740,
+   "flip": false
+  },
+  {
+   "name": "VEH_M04",
+   "kind": "car",
+   "weight": 1.0,
+   "fixed": false,
+   "length": 4.5,
+   "width": 2.0,
+   "height": 1.608,
+   "front": 2.23,
+   "rear": 2.27,
+   "wheelR": 0.299,
+   "wheelbase": 2.893,
+   "wheels": [
+    "Wheel_FL",
+    "Wheel_FR",
+    "Wheel_RL",
+    "Wheel_RR"
+   ],
+   "lights": [
+    "Blink_L",
+    "Blink_R",
+    "Light_L",
+    "Light_R"
+   ],
+   "tris_lod0": 13650,
+   "tris_lod1": 4095,
+   "flip": false
+  },
+  {
+   "name": "VEH_M05",
+   "kind": "suv",
+   "weight": 1.0,
+   "fixed": false,
+   "length": 3.612,
+   "width": 1.72,
+   "height": 1.855,
+   "front": 1.83,
+   "rear": 1.782,
+   "wheelR": 0.279,
+   "wheelbase": 2.517,
+   "wheels": [
+    "Wheel_FL",
+    "Wheel_FR",
+    "Wheel_RL",
+    "Wheel_RR"
+   ],
+   "lights": [
+    "Blink_L",
+    "Blink_R",
+    "Light_L",
+    "Light_R"
+   ],
+   "tris_lod0": 7688,
+   "tris_lod1": 2306,
+   "flip": false
+  },
+  {
+   "name": "VEH_M06",
+   "kind": "car",
+   "weight": 1.0,
+   "fixed": false,
+   "length": 4.5,
+   "width": 2.0,
+   "height": 1.661,
+   "front": 2.34,
+   "rear": 2.16,
+   "wheelR": 0.327,
+   "wheelbase": 2.932,
+   "wheels": [
+    "Wheel_FL",
+    "Wheel_FR",
+    "Wheel_RL",
+    "Wheel_RR"
+   ],
+   "lights": [
+    "Blink_L",
+    "Blink_R",
+    "Light_L",
+    "Light_R"
+   ],
+   "tris_lod0": 9228,
+   "tris_lod1": 2768,
+   "flip": false
+  },
+  {
+   "name": "VEH_M07",
+   "kind": "car",
+   "weight": 1.0,
+   "fixed": false,
+   "length": 4.5,
+   "width": 2.0,
+   "height": 1.524,
+   "front": 2.331,
+   "rear": 2.169,
+   "wheelR": 0.308,
+   "wheelbase": 3.075,
+   "wheels": [
+    "Wheel_FL",
+    "Wheel_FR",
+    "Wheel_RL",
+    "Wheel_RR"
+   ],
+   "lights": [
+    "Blink_L",
+    "Blink_R",
+    "Light_L",
+    "Light_R"
+   ],
+   "tris_lod0": 7397,
+   "tris_lod1": 2218,
+   "flip": false
+  },
+  {
+   "name": "VEH_M08",
+   "kind": "car",
+   "weight": 1.0,
+   "fixed": false,
+   "length": 4.5,
+   "width": 2.0,
+   "height": 1.682,
+   "front": 2.33,
+   "rear": 2.17,
+   "wheelR": 0.323,
+   "wheelbase": 2.759,
+   "wheels": [
+    "Wheel_FL",
+    "Wheel_FR",
+    "Wheel_RL",
+    "Wheel_RR"
+   ],
+   "lights": [
+    "Blink_L",
+    "Blink_R",
+    "Light_L",
+    "Light_R"
+   ],
+   "tris_lod0": 13067,
+   "tris_lod1": 3920,
+   "flip": false
+  },
+  {
+   "name": "VEH_M09",
+   "kind": "car",
+   "weight": 1.0,
+   "fixed": false,
+   "length": 4.5,
+   "width": 2.0,
+   "height": 1.734,
+   "front": 2.318,
+   "rear": 2.182,
+   "wheelR": 0.31,
+   "wheelbase": 2.883,
+   "wheels": [
+    "Wheel_FL",
+    "Wheel_FR",
+    "Wheel_RL",
+    "Wheel_RR"
+   ],
+   "lights": [
+    "Blink_L",
+    "Blink_R",
+    "Light_L",
+    "Light_R"
+   ],
+   "tris_lod0": 6812,
+   "tris_lod1": 2043,
+   "flip": false
+  },
+  {
+   "name": "VEH_M10",
+   "kind": "car",
+   "weight": 1.0,
+   "fixed": false,
+   "length": 4.5,
+   "width": 2.0,
+   "height": 1.504,
+   "front": 2.367,
+   "rear": 2.133,
+   "wheelR": 0.34,
+   "wheelbase": 2.831,
+   "wheels": [
+    "Wheel_FL",
+    "Wheel_FR",
+    "Wheel_RL",
+    "Wheel_RR"
+   ],
+   "lights": [
+    "Blink_L",
+    "Blink_R",
+    "Light_L",
+    "Light_R"
+   ],
+   "tris_lod0": 12447,
+   "tris_lod1": 3734,
+   "flip": false
+  },
+  {
+   "name": "VEH_R_Sedan",
+   "kind": "car",
+   "weight": 1.4,
+   "fixed": false,
+   "length": 4.717,
+   "width": 1.85,
+   "height": 1.481,
+   "front": 2.386,
+   "rear": 2.332,
+   "wheelR": 0.302,
+   "wheelbase": 2.903,
+   "wheels": [
+    "Wheel_FL",
+    "Wheel_FR",
+    "Wheel_RL",
+    "Wheel_RR"
+   ],
+   "lights": [
+    "Light_L",
+    "Light_R"
+   ],
+   "tris_lod0": 1472,
+   "tris_lod1": 500,
+   "flip": false
+  },
+  {
+   "name": "VEH_R_Hatchback",
+   "kind": "car",
+   "weight": 1.0,
+   "fixed": false,
+   "length": 4.14,
+   "width": 1.8,
+   "height": 1.441,
+   "front": 2.143,
+   "rear": 1.997,
+   "wheelR": 0.294,
+   "wheelbase": 2.611,
+   "wheels": [
+    "Wheel_FL",
+    "Wheel_FR",
+    "Wheel_RL",
+    "Wheel_RR"
+   ],
+   "lights": [
+    "Light_L",
+    "Light_R"
+   ],
+   "tris_lod0": 1382,
+   "tris_lod1": 500,
+   "flip": false
+  },
+  {
+   "name": "VEH_R_SUV",
+   "kind": "suv",
+   "weight": 1.0,
+   "fixed": false,
+   "length": 4.704,
+   "width": 1.92,
+   "height": 1.85,
+   "front": 2.408,
+   "rear": 2.296,
+   "wheelR": 0.331,
+   "wheelbase": 3.006,
+   "wheels": [
+    "Wheel_FL",
+    "Wheel_FR",
+    "Wheel_RL",
+    "Wheel_RR"
+   ],
+   "lights": [
+    "Light_L",
+    "Light_R"
+   ],
+   "tris_lod0": 1752,
+   "tris_lod1": 524,
+   "flip": false
+  },
+  {
+   "name": "VEH_R_Taxi",
+   "kind": "taxi",
+   "weight": 0.9,
+   "fixed": true,
+   "length": 4.718,
+   "width": 1.85,
+   "height": 1.708,
+   "front": 2.386,
+   "rear": 2.332,
+   "wheelR": 0.302,
+   "wheelbase": 2.903,
+   "wheels": [
+    "Wheel_FL",
+    "Wheel_FR",
+    "Wheel_RL",
+    "Wheel_RR"
+   ],
+   "lights": [
+    "Light_L",
+    "Light_R"
+   ],
+   "tris_lod0": 1520,
+   "tris_lod1": 500,
+   "flip": false
+  },
+  {
+   "name": "VEH_R_Van",
+   "kind": "van",
+   "weight": 0.6,
+   "fixed": false,
+   "length": 5.07,
+   "width": 1.95,
+   "height": 2.104,
+   "front": 2.617,
+   "rear": 2.453,
+   "wheelR": 0.319,
+   "wheelbase": 3.425,
+   "wheels": [
+    "Wheel_FL",
+    "Wheel_FR",
+    "Wheel_RL",
+    "Wheel_RR"
+   ],
+   "lights": [
+    "Light_L",
+    "Light_R"
+   ],
+   "tris_lod0": 1396,
+   "tris_lod1": 500,
+   "flip": false
+  },
+  {
+   "name": "VEH_R_Truck",
+   "kind": "truck",
+   "weight": 0.6,
+   "fixed": true,
+   "length": 5.2,
+   "width": 2.0,
+   "height": 2.351,
+   "front": 2.721,
+   "rear": 2.479,
+   "wheelR": 0.301,
+   "wheelbase": 3.816,
+   "wheels": [
+    "Wheel_FL",
+    "Wheel_FR",
+    "Wheel_RL",
+    "Wheel_RL2",
+    "Wheel_RR",
+    "Wheel_RR2"
+   ],
+   "lights": [
+    "Light_L",
+    "Light_R"
+   ],
+   "tris_lod0": 1812,
+   "tris_lod1": 542,
+   "flip": false
+  },
+  {
+   "name": "VEH_R_Bus",
+   "kind": "bus",
+   "weight": 0.35,
+   "fixed": true,
+   "length": 11.0,
+   "width": 2.5,
+   "height": 3.2,
+   "front": 5.372,
+   "rear": 5.628,
+   "wheelR": 0.496,
+   "wheelbase": 5.541,
+   "wheels": [
+    "Wheel_FL",
+    "Wheel_FR",
+    "Wheel_RL",
+    "Wheel_RR"
+   ],
+   "lights": [
+    "Light_L",
+    "Light_R"
+   ],
+   "tris_lod0": 1706,
+   "tris_lod1": 510,
+   "flip": false
+  },
+  {
+   "name": "VEH_R_Pickup",
+   "kind": "car",
+   "weight": 0.25,
+   "fixed": false,
+   "length": 4.94,
+   "width": 1.9,
+   "height": 1.717,
+   "front": 2.529,
+   "rear": 2.411,
+   "wheelR": 0.319,
+   "wheelbase": 3.157,
+   "wheels": [
+    "Wheel_FL",
+    "Wheel_FR",
+    "Wheel_RL",
+    "Wheel_RR"
+   ],
+   "lights": [
+    "Light_L",
+    "Light_R"
+   ],
+   "tris_lod0": 1662,
+   "tris_lod1": 498,
+   "flip": false
+  },
+  {
+   "name": "VEH_R_Ambulance",
+   "kind": "van",
+   "weight": 0.06,
+   "fixed": true,
+   "length": 5.1,
+   "width": 2.0,
+   "height": 2.329,
+   "front": 2.632,
+   "rear": 2.468,
+   "wheelR": 0.336,
+   "wheelbase": 3.445,
+   "wheels": [
+    "Wheel_FL",
+    "Wheel_FR",
+    "Wheel_RL",
+    "Wheel_RR"
+   ],
+   "lights": [
+    "Light_L",
+    "Light_R"
+   ],
+   "tris_lod0": 1580,
+   "tris_lod1": 500,
+   "flip": false
+  }
+ ]
+}

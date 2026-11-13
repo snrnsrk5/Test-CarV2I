@@ -1,0 +1,1044 @@
+{
+ "materials": [
+  {
+   "name": "AV_Accent",
+   "color": [
+    0.098,
+    0.8275,
+    0.7725
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.7,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_ADSMarker",
+   "color": [
+    0.098,
+    0.8275,
+    0.7725
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.8,
+   "alpha": 1.0,
+   "emission": [
+    0.098,
+    0.8275,
+    0.7725
+   ],
+   "emissionIntensity": 8.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_Alu",
+   "color": [
+    0.6549,
+    0.6745,
+    0.698
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.7,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_BlackChrome",
+   "color": [
+    0.1647,
+    0.1765,
+    0.2
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.88,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_BlackGloss",
+   "color": [
+    0.0431,
+    0.0471,
+    0.0549
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.88,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_BlackSatin",
+   "color": [
+    0.0863,
+    0.0941,
+    0.1059
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.55,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_BrakeDisc",
+   "color": [
+    0.3333,
+    0.3451,
+    0.3608
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.55,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_Caliper",
+   "color": [
+    0.1059,
+    0.1137,
+    0.1255
+   ],
+   "metallic": 0.3,
+   "smoothness": 0.65,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_Carpet",
+   "color": [
+    0.0824,
+    0.0824,
+    0.0824
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.05,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_DecalAccent",
+   "color": [
+    0.0706,
+    0.7098,
+    0.6667
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.55,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_DecalWhite",
+   "color": [
+    0.9529,
+    0.9608,
+    0.9686
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.6,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_DRL",
+   "color": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.75,
+   "alpha": 1.0,
+   "emission": [
+    0.9333,
+    0.9647,
+    1.0
+   ],
+   "emissionIntensity": 9.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_EStop",
+   "color": [
+    0.8157,
+    0.0863,
+    0.1059
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.65,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_EStopBase",
+   "color": [
+    0.949,
+    0.7608,
+    0.0
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.6,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_Gasket",
+   "color": [
+    0.0431,
+    0.0431,
+    0.0471
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.15,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_Glass",
+   "color": [
+    0.0549,
+    0.0784,
+    0.0941
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.97,
+   "alpha": 0.72,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": true
+  },
+  {
+   "name": "AV_GlassFrit",
+   "color": [
+    0.0431,
+    0.0471,
+    0.0549
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.65,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_Headliner",
+   "color": [
+    0.549,
+    0.5412,
+    0.5255
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.1,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_Interior",
+   "color": [
+    0.1686,
+    0.1725,
+    0.1804
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.3,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_InteriorSoft",
+   "color": [
+    0.2275,
+    0.2235,
+    0.2118
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.2,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_LampHousing",
+   "color": [
+    0.0824,
+    0.0902,
+    0.102
+   ],
+   "metallic": 0.2,
+   "smoothness": 0.55,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_LampInner",
+   "color": [
+    0.0392,
+    0.0431,
+    0.0471
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.45,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_LampLens",
+   "color": [
+    0.0471,
+    0.051,
+    0.0588
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.72,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_LampRed",
+   "color": [
+    0.6902,
+    0.0,
+    0.0392
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.8,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    0.0627,
+    0.1255
+   ],
+   "emissionIntensity": 5.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_LampReflector",
+   "color": [
+    0.9608,
+    0.9725,
+    1.0
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.85,
+   "alpha": 1.0,
+   "emission": [
+    0.8627,
+    0.9137,
+    1.0
+   ],
+   "emissionIntensity": 1.6,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_Lens",
+   "color": [
+    0.0392,
+    0.0706,
+    0.1255
+   ],
+   "metallic": 0.4,
+   "smoothness": 0.96,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_LensRing",
+   "color": [
+    0.2275,
+    0.2471,
+    0.2745
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.75,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_LogoFront",
+   "color": [
+    0.9063,
+    0.9063,
+    0.9063
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.75,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "PNU01_Logo.png",
+   "cutout": true,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_LogoRear",
+   "color": [
+    0.9063,
+    0.9063,
+    0.9063
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.75,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "PNU01_Logo.png",
+   "cutout": true,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_Paint",
+   "color": [
+    0.0,
+    0.298,
+    0.5922
+   ],
+   "metallic": 0.6,
+   "smoothness": 0.68,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_PlateFront",
+   "color": [
+    0.9063,
+    0.9063,
+    0.9063
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.7,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "PNU01_Plate.png",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_PlateRear",
+   "color": [
+    0.9063,
+    0.9063,
+    0.9063
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.7,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "PNU01_Plate.png",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_ProjLens",
+   "color": [
+    0.0196,
+    0.0235,
+    0.0275
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.78,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_Radome",
+   "color": [
+    0.1098,
+    0.1176,
+    0.1333
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.7,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_RimDark",
+   "color": [
+    0.1647,
+    0.1765,
+    0.1922
+   ],
+   "metallic": 0.6,
+   "smoothness": 0.65,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_RimGlossBlack",
+   "color": [
+    0.051,
+    0.0549,
+    0.0627
+   ],
+   "metallic": 0.25,
+   "smoothness": 0.86,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_RimGunmetal",
+   "color": [
+    0.2353,
+    0.251,
+    0.2745
+   ],
+   "metallic": 0.9,
+   "smoothness": 0.72,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_RimMachined",
+   "color": [
+    0.7882,
+    0.8039,
+    0.8275
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.82,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_RimSilver",
+   "color": [
+    0.7882,
+    0.8039,
+    0.8235
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.82,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_RoofGlass",
+   "color": [
+    0.0275,
+    0.0353,
+    0.0431
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.94,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_SatinAlu",
+   "color": [
+    0.5569,
+    0.5804,
+    0.6118
+   ],
+   "metallic": 1.0,
+   "smoothness": 0.65,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_Screen",
+   "color": [
+    0.1517,
+    0.1897,
+    0.2478
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.8,
+   "alpha": 1.0,
+   "emission": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "emissionIntensity": 1.0,
+   "texture": "AV_Screen.png",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_Seat",
+   "color": [
+    0.1098,
+    0.1137,
+    0.1216
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.45,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_SeatAccent",
+   "color": [
+    0.098,
+    0.8275,
+    0.7725
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.5,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_SensorBlack",
+   "color": [
+    0.0863,
+    0.0902,
+    0.102
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.58,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_SensorWhite",
+   "color": [
+    0.9451,
+    0.949,
+    0.9529
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.72,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_SensorWindow",
+   "color": [
+    0.0196,
+    0.0275,
+    0.0392
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.9,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_Tire",
+   "color": [
+    0.0784,
+    0.0784,
+    0.0784
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.15,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_TrimDark",
+   "color": [
+    0.102,
+    0.1098,
+    0.1216
+   ],
+   "metallic": 0.3,
+   "smoothness": 0.5,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_TrimDarkChrome",
+   "color": [
+    0.1804,
+    0.1922,
+    0.2078
+   ],
+   "metallic": 0.9,
+   "smoothness": 0.82,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_VisorGlass",
+   "color": [
+    0.0549,
+    0.0627,
+    0.0706
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.92,
+   "alpha": 0.62,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  },
+  {
+   "name": "AV_WheelWell",
+   "color": [
+    0.0392,
+    0.0392,
+    0.0392
+   ],
+   "metallic": 0.0,
+   "smoothness": 0.1,
+   "alpha": 1.0,
+   "emission": [
+    0,
+    0,
+    0
+   ],
+   "emissionIntensity": 0.0,
+   "texture": "",
+   "cutout": false,
+   "doubleSided": false
+  }
+ ]
+}

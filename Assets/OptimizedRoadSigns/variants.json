@@ -1,0 +1,140 @@
+{
+  "atlasSize": 2048,
+  "meshCount": 4,
+  "materialCount": 1,
+  "textureCount": 1,
+  "variants": [
+    {
+      "name": "Speed_90",
+      "source": "Frame 1.png",
+      "shape": "Circle",
+      "rect": [
+        0.0078125,
+        0.7578125,
+        0.234375,
+        0.234375
+      ]
+    },
+    {
+      "name": "Speed_70",
+      "source": "Frame 2.png",
+      "shape": "Circle",
+      "rect": [
+        0.2578125,
+        0.7578125,
+        0.234375,
+        0.234375
+      ]
+    },
+    {
+      "name": "Speed_60",
+      "source": "Frame 3.png",
+      "shape": "Circle",
+      "rect": [
+        0.5078125,
+        0.7578125,
+        0.234375,
+        0.234375
+      ]
+    },
+    {
+      "name": "Speed_30",
+      "source": "Frame 4.png",
+      "shape": "Circle",
+      "rect": [
+        0.7578125,
+        0.7578125,
+        0.234375,
+        0.234375
+      ]
+    },
+    {
+      "name": "Speed_50",
+      "source": "Frame 5.png",
+      "shape": "Circle",
+      "rect": [
+        0.0078125,
+        0.5078125,
+        0.234375,
+        0.234375
+      ]
+    },
+    {
+      "name": "Children_Protection",
+      "source": "Frame 6.jpg",
+      "shape": "Crosswalk",
+      "rect": [
+        0.2578125,
+        0.5078125,
+        0.234375,
+        0.234375
+      ]
+    },
+    {
+      "name": "Pedestrian_Crossing",
+      "source": "Frame 7.jpg",
+      "shape": "Crosswalk",
+      "rect": [
+        0.5078125,
+        0.5078125,
+        0.234375,
+        0.234375
+      ]
+    },
+    {
+      "name": "Chevron_Right",
+      "source": "Frame 8.jpg",
+      "shape": "Rectangle",
+      "rect": [
+        0.7578125,
+        0.5078125,
+        0.234375,
+        0.234375
+      ]
+    },
+    {
+      "name": "Speed_Bump",
+      "source": "Frame 9.jpg",
+      "shape": "Triangle",
+      "rect": [
+        0.0078125,
+        0.2578125,
+        0.234375,
+        0.234375
+      ]
+    },
+    {
+      "name": "Road_Narrows",
+      "source": "Frame 10.jpg",
+      "shape": "Triangle",
+      "rect": [
+        0.2578125,
+        0.2578125,
+        0.234375,
+        0.234375
+      ]
+    }
+  ],
+  "meshes": {
+    "Rectangle": {
+      "vertices": 8,
+      "faces": 6,
+      "triangles": 12
+    },
+    "Triangle": {
+      "vertices": 30,
+      "faces": 29,
+      "triangles": 56
+    },
+    "Circle": {
+      "vertices": 66,
+      "faces": 96,
+      "triangles": 128
+    },
+    "Crosswalk": {
+      "vertices": 30,
+      "faces": 29,
+      "triangles": 56
+    }
+  }
+}

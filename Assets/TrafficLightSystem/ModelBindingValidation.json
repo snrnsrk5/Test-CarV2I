@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "models": {
+    "TrafficLight_Assembly_3Head.fbx": {
+      "expected_bindings": 43,
+      "missing_names": [],
+      "unrecognized_materials": [],
+      "passed": true
+    },
+    "TrafficLight_Pedestrian_Bar.fbx": {
+      "expected_bindings": 12,
+      "missing_names": [],
+      "unrecognized_materials": [],
+      "passed": true
+    }
+  },
+  "method": "Prepared FBX hierarchy and material names checked in Blender against the C# setup-tool contract; not a Unity import test."
+}

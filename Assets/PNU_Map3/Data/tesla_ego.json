@@ -1,0 +1,892 @@
+{
+ "eye": [
+  -0.4192,
+  1.1257,
+  0.0
+ ],
+ "wheel_pivot": [
+  -0.4187,
+  0.8144,
+  0.4934
+ ],
+ "wheel_axis": [
+  0.0104,
+  0.3297,
+  -0.944
+ ],
+ "screen": {
+  "origin": [
+   -0.1689,
+   0.6889,
+   0.5346
+  ],
+  "u": [
+   0.3383,
+   -0.0,
+   0.0
+  ],
+  "v": [
+   0.0,
+   0.2586,
+   0.0601
+  ],
+  "normal": [
+   0.0,
+   0.2264,
+   -0.974
+  ]
+ },
+ "wheels": {
+  "Tesla_WheelsFront": {
+   "center": [
+    0.0,
+    0.3392,
+    1.4873
+   ],
+   "radius": 0.3333
+  },
+  "Tesla_WheelsRear": {
+   "center": [
+    0.0,
+    0.3392,
+    -1.3709
+   ],
+   "radius": 0.3394
+  }
+ },
+ "materials": [
+  {
+   "name": "TM_Black",
+   "tex": "black.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "opaque",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_BlackGloss",
+   "tex": "black.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "opaque",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_Buttons",
+   "tex": "button.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "opaque",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_Carpet_0",
+   "tex": "leather1.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "opaque",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_Carpet_Light_0",
+   "tex": null,
+   "color": [
+    0.412,
+    0.412,
+    0.412
+   ],
+   "kind": "opaque",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_Chrome",
+   "tex": null,
+   "color": [
+    0.78,
+    0.79,
+    0.8
+   ],
+   "kind": "opaque",
+   "alpha": 1.0,
+   "smooth": 0.85,
+   "metal": 0.9,
+   "emission": false
+  },
+  {
+   "name": "TM_Glass",
+   "tex": null,
+   "color": [
+    0.06,
+    0.07,
+    0.075
+   ],
+   "kind": "glass",
+   "alpha": 0.3,
+   "smooth": 0.95,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_GlassRoof",
+   "tex": null,
+   "color": [
+    0.06,
+    0.07,
+    0.075
+   ],
+   "kind": "glass",
+   "alpha": 0.55,
+   "smooth": 0.95,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_JustBlack",
+   "tex": "black.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "opaque",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_LeatherBlack",
+   "tex": "leather1.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "opaque",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_Lens",
+   "tex": null,
+   "color": [
+    0.9,
+    0.9,
+    0.92
+   ],
+   "kind": "blend",
+   "alpha": 0.22,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_Light_breaklight_l",
+   "tex": "vehiclelights.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "light",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_Light_foglight_l",
+   "tex": "vehiclelights.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "light",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_Light_foglight_r",
+   "tex": "vehiclelights.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "light",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_Light_indicator_lf",
+   "tex": "vehiclelights.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "light",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_Light_indicator_lr",
+   "tex": "vehiclelights.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "light",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_Light_indicator_rf",
+   "tex": "vehiclelights.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "light",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_Light_indicator_rr",
+   "tex": "vehiclelights.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "light",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_Light_left_front_light",
+   "tex": "vehiclelights.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "light",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_Light_left_rear_light",
+   "tex": "vehiclelights.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "light",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_Light_light_night",
+   "tex": "vehiclelights.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "light",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": true
+  },
+  {
+   "name": "TM_Light_revlight_L",
+   "tex": "vehiclelights.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "light",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_Light_right_front_light",
+   "tex": "vehiclelights.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "light",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_Light_right_rear_light",
+   "tex": "vehiclelights.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "light",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_Mirror",
+   "tex": null,
+   "color": [
+    0.55,
+    0.6,
+    0.65
+   ],
+   "kind": "opaque",
+   "alpha": 1.0,
+   "smooth": 0.95,
+   "metal": 0.9,
+   "emission": false
+  },
+  {
+   "name": "TM_Paint",
+   "tex": null,
+   "color": [
+    0.92,
+    0.925,
+    0.91
+   ],
+   "kind": "opaque",
+   "alpha": 1.0,
+   "smooth": 0.7,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_PaintDoor",
+   "tex": "remap3.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "opaque",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_PaintSill",
+   "tex": "remap2.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "opaque",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_Plastic",
+   "tex": "black.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "opaque",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_Screen",
+   "tex": "lcd.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "opaque",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": true
+  },
+  {
+   "name": "TM_SeatWhite",
+   "tex": "leather2.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "opaque",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_TrimWhite",
+   "tex": "leather2.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "opaque",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_aluminium2_0",
+   "tex": "gray.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "opaque",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_aluminium_light_0",
+   "tex": "gray.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "opaque",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_back_chrome_light_0",
+   "tex": "gray1.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "opaque",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_belt_0",
+   "tex": "belt.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "opaque",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_chassis_0",
+   "tex": null,
+   "color": [
+    0.906,
+    0.906,
+    0.906
+   ],
+   "kind": "opaque",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_door_lf_0",
+   "tex": null,
+   "color": [
+    0.303,
+    0.303,
+    0.303
+   ],
+   "kind": "opaque",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_door_lf_5",
+   "tex": null,
+   "color": [
+    0.23,
+    0.23,
+    0.23
+   ],
+   "kind": "opaque",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_front_black_0",
+   "tex": "black.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "opaque",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_hitam_0",
+   "tex": "black.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "opaque",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_hub_rb_0",
+   "tex": "caliper.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "opaque",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_hub_rf_0",
+   "tex": "caliper.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "opaque",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_hub_rf_1",
+   "tex": "caliperbadge.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "opaque",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_light_pantulan_0",
+   "tex": "red3.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "opaque",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_pantulans_0",
+   "tex": "red2.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "opaque",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_platnomor_1",
+   "tex": null,
+   "color": [
+    0.35,
+    0.36,
+    0.37
+   ],
+   "kind": "opaque",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_platnomor_2",
+   "tex": "plate_kr.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "opaque",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_satin_red_0",
+   "tex": "red2.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "opaque",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_suspensi_0",
+   "tex": "gray1.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "opaque",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_suspensi_1",
+   "tex": "gray1.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "opaque",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_wheels_0",
+   "tex": "gray.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "opaque",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_wheels_1",
+   "tex": "black.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "opaque",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_wheels_2",
+   "tex": "tyre.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "opaque",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_wheels_3",
+   "tex": "tyre2.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "opaque",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_wheels_4",
+   "tex": "disc.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "opaque",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  },
+  {
+   "name": "TM_wheels_6",
+   "tex": "rims.png",
+   "color": [
+    1,
+    1,
+    1
+   ],
+   "kind": "opaque",
+   "alpha": 1.0,
+   "smooth": 0.4,
+   "metal": 0.0,
+   "emission": false
+  }
+ ],
+ "screen_px": [
+  1024,
+  804
+ ],
+ "map": {
+  "x0": -1076.02,
+  "n0": -37.71,
+  "scale": 0.041608,
+  "px0": 698.0,
+  "py0": 411.0
+ },
+ "digits": {
+  "chars": "0123456789.- ●▲",
+  "cells": 16
+ },
+ "texts": {
+  "speed": [
+   186.0,
+   150,
+   150,
+   0
+  ],
+  "limit": [
+   256.0,
+   301,
+   48,
+   0
+  ],
+  "remain": [
+   418,
+   760,
+   52,
+   -1
+  ]
+ }
+}

@@ -1,0 +1,227 @@
+Unity 신호등 관리 시스템
+대상: Unity 2022.3.19f1 / URP 14
+
+1. 설치
+
+전체 설치팩을 사용하는 경우:
+  압축을 풀고 TrafficLightSystem 폴더를 프로젝트의 Assets 안에 넣습니다.
+  Assets/TrafficLightSystem/Runtime, Editor, Shaders, Models, Textures 구조가 되어야 합니다.
+  Unity의 임포트와 C# 컴파일이 끝날 때까지 기다립니다.
+
+스크립트 전용팩을 사용하는 경우:
+  TrafficLightSystem 폴더를 Assets에 넣습니다.
+  앞서 제공한 Unity_Import/Models와 Unity_Import/Textures도 Assets 아래에 유지합니다.
+  FBX를 하나만 따로 복사하지 말고 Models/Textures 폴더 구조를 유지합니다.
+
+같은 FBX를 여러 경로에 중복으로 넣으면 설치 도구가 자동 선택하지 않습니다.
+이 경우 설치 창의 FBX 입력란에 사용할 파일을 직접 드래그하면 됩니다.
+
+2. 첫 Prefab 만들기
+
+상단 메뉴 Tools > Traffic Lights > Setup Prepared Model을 엽니다.
+
+3-head assembly FBX:
+  TrafficLight_Assembly_3Head.fbx를 지정합니다.
+Bar pedestrian FBX:
+  TrafficLight_Pedestrian_Bar.fbx를 지정합니다. 숫자형만 사용할 경우 비워둘 수 있습니다.
+
+‘관리용 Prefab 만들기’를 누릅니다.
+도구는 다음을 수행합니다.
+  - FBX의 실제 이름을 기준으로 기둥, 신호등 3개, 부착점, 불빛을 연결합니다.
+  - URP 금속/외함/신호등 머티리얼을 생성합니다.
+  - Roughness를 URP Metallic/Smoothness 텍스처로 변환합니다.
+  - 숫자형 14개 세그먼트와 막대형 9개 세그먼트를 연결합니다.
+  - Assets/TrafficLightSystem/Generated 아래에 새 Prefab을 저장합니다.
+  - 현재 Scene에 Prefab 인스턴스를 하나 추가하고 선택합니다.
+
+기존 Scene의 다른 오브젝트를 교체하거나 기존 Prefab을 덮어쓰지 않습니다.
+다시 생성하면 새 폴더를 사용하므로 확인이 끝난 중복 결과는 직접 정리할 수 있습니다.
+
+URP가 활성화되지 않았거나 준비된 FBX/텍스처의 이름과 구조가 다르면 Console에 오류가 표시됩니다.
+이 도구는 제공한 두 FBX를 기준으로 만든 것이며, 임의의 모델을 자동 변환하는 도구는 아닙니다.
+
+3. 구조물 관리
+
+생성된 TrafficLight_Modular 루트를 선택합니다.
+TrafficLightController Inspector에서 다음을 바꿀 수 있습니다.
+  차량 신호등 개수: 1 / 2 / 3
+  추가 표지판 개수: 0 ~ 차량 신호등 수
+  보행자 신호등 종류: None / Number / Bar
+
+신호등 수를 바꾸면 기존 연장 기둥, 지지선, 신호등을 함께 켜고 끕니다.
+메시 Scale을 늘리거나 줄여 기둥을 변형하지 않습니다.
+이 과정에서는 같은 부품을 재사용하므로 Instantiate/Destroy가 반복되지 않습니다.
+
+빨강 / 노랑 / 초록 / 모두 끄기 버튼은 현재 설치된 차량 신호등에 일괄 적용합니다.
+각 신호등의 상태는 독립적으로 유지됩니다.
+
+4. 네 불빛을 각각 설정하기
+
+Hierarchy에서 아래 신호등 루트 중 하나를 선택합니다.
+  3H_S1_TL_Module_Signal4
+  3H_S2_TL_Module_Signal4
+  3H_S3_TL_Module_Signal4
+
+SignalLightController에서 Red / Yellow / Left / Green을 펼칩니다.
+  On: 해당 불빛 켜기/끄기
+  Color: 발광 색상
+  Intensity: 발광 강도
+
+Visual > Renderer는 설치 도구가 연결합니다. 렌즈를 바꾸는 경우에만 수정합니다.
+Signal Material에는 설치 도구가 생성한 TL_Signal_URP_Base.mat를 유지합니다.
+
+네 불빛은 각자 하나의 Renderer로 제어됩니다.
+같은 상태/색상/강도를 쓰는 불빛은 런타임에 같은 머티리얼을 공유합니다.
+다른 오브젝트에 영향을 주지 않도록 공유 원본 머티리얼의 값을 직접 변경하지 않습니다.
+
+5. 보행자 신호와 숫자/막대 표시
+
+루트의 AccessoryModule에서 Number / Bar / None을 선택합니다.
+Hierarchy에서 선택한 보행자 모듈을 펼친 뒤 PedestrianSignalController를 확인합니다.
+
+Walking: 켜면 보행 초록, 끄면 빨강
+Remaining Seconds: 남은 시간, 0~99
+Total Seconds: 막대형 표시의 전체 시간
+Blank Leading Zero: 9초를 ‘09’ 대신 ‘9’로 표시
+Walk Color / Stop Color / Intensity: 색상과 발광 강도
+
+숫자형은 실제 원본 모델을 확인하여 Digit 1을 일의 자리, Digit 2를 십의 자리에 연결했습니다.
+막대형은 남은 시간 비율에 따라 9칸을 순서대로 켜고 끕니다.
+이 컴포넌트 자체가 시간을 계속 줄이지는 않습니다. 외부 게임 로직에서 남은 시간을 전달합니다.
+
+6. 위치 바꾸기
+
+Hierarchy에서 Socket_이 들어간 Empty/Transform을 선택해 이동하거나 회전합니다.
+  Socket_Signal_*: 차량 신호등 설치점
+  Socket_Sign_*: 추가 가로 표지판 설치점
+  Socket_Pedestrian: 보행자 신호등 설치점
+  Socket_Arm_Next_*: 원래 연결부의 다음 연장부 기준점
+
+모듈 Inspector의 Socket 입력에 다른 Transform을 직접 지정할 수도 있습니다.
+위치는 스크립트 내부 좌표로 고정되어 있지 않습니다.
+부착된 오브젝트의 로컬 위치는 0, 로컬 회전은 Identity로 정렬합니다.
+설치 위치/각도를 바꿀 때는 오브젝트 자체보다 Socket을 수정하세요.
+
+기둥 연결점은 원본의 연결면 기준입니다. 연결점을 이동하면 부품 사이에 간격이 생길 수 있으므로 실제 연결 형상을 보면서 수정합니다.
+
+7. 추가 표지판/프랍은 추후 파일이 준비되면 연결
+
+현재 추가 파일에는 정확한 WIDTH_/LENGTH_ 접두어가 없어서 추가 프랍 모델을 가져오거나 이름을 고치지 않았습니다.
+스크립트의 연결 슬롯만 준비되어 있습니다.
+
+가로 표지판:
+  TrafficSignModule > Mounts의 각 Socket과 Prefab을 지정합니다.
+  Prefab 이름이 정확히 WIDTH_로 시작해야 합니다.
+  각 슬롯에 같은 Prefab을 중복 지정하거나 다른 Prefab을 지정할 수 있습니다.
+  Sign Count는 차량 신호등 수를 넘을 수 없습니다. 차량 1개에 표지판 2개는 허용하지 않습니다.
+
+세로 추가 프랍:
+  AccessoryModule > Additional 목록을 늘립니다.
+  Type Key에는 종류를 식별할 이름을 넣습니다.
+  Install로 설치 여부를 선택합니다.
+  Mount의 Socket과 Prefab을 지정합니다.
+  Prefab 이름은 정확히 LENGTH_로 시작해야 합니다.
+  같은 Type Key는 최대 하나만 설치됩니다. 다른 종류는 동시에 설치할 수 있습니다.
+
+Width_, Length_, Lengh_ 또는 접두어가 없는 이름은 인정하지 않습니다.
+잘못된 이름을 자동으로 변경하거나 해당 Prefab의 내용을 수정하지 않습니다.
+스크립트가 만든 프랍 인스턴스만 관리하며, Socket 아래에 사용자가 따로 둔 오브젝트는 삭제하지 않습니다.
+설치 ON/OFF나 개수 변경은 기존 인스턴스를 재사용합니다.
+Prefab 종류 자체를 바꾸는 경우에만 기존 관리 인스턴스를 교체합니다.
+
+8. 다른 스크립트에서 호출하기
+
+using ModularTrafficLights;
+using UnityEngine;
+
+public class MyTrafficExample : MonoBehaviour
+{
+    public TrafficLightController traffic;
+
+    public void Configure()
+    {
+        traffic.SetSignalCount(2);
+        traffic.SetVehicleAspect(VehicleAspect.Red);
+
+        // 인덱스 0 = 첫 번째 신호등.
+        traffic.GetSignal(0).SetLamp(SignalLamp.Left, true, Color.green, 4f);
+        traffic.GetSignal(1).SetLamp(SignalLamp.Red, false);
+        traffic.GetSignal(1).SetLamp(SignalLamp.Green, true);
+
+        traffic.SetPedestrianVariant(PedestrianVariant.Number);
+        traffic.SetPedestrian(true, remainingSeconds: 12, totalSeconds: 30);
+    }
+}
+
+SetLamp는 다른 세 불빛을 자동으로 끄지 않습니다.
+한 가지 상태로 한 번에 전환하려면 SetAspect 또는 SetVehicleAspect를 사용합니다.
+인덱스는 0~2입니다. 없는 인덱스를 전달하면 ArgumentOutOfRangeException이 발생합니다.
+설정 변경은 필요한 시점에만 호출하면 되며, 매 프레임 호출할 필요가 없습니다.
+
+9. 선택 사항: 간단한 동작 예제
+
+루트에 TrafficLightDemoCycle 컴포넌트를 추가합니다.
+Controller에 TrafficLight_Modular의 TrafficLightController를 연결합니다.
+Auto Start를 켜고 Play를 누르면 다음 예제가 반복됩니다.
+  차량 빨강 + 보행 초록/남은 시간
+  차량 초록 + 보행 빨강
+  차량 노랑
+
+이 예제는 게임용 API 사용 예시입니다. 실제 교차로의 충돌 방지나 신호 정책을 구현한 교통 시뮬레이터는 아닙니다.
+기본 설치 도구는 이 예제를 자동으로 추가하거나 실행하지 않습니다.
+
+10. 최적화 선택
+
+런타임 관리 코드에는 Update 반복 처리가 없습니다.
+구성이 바뀔 때만 부품 활성 상태와 배치를 갱신합니다.
+불빛은 Light 컴포넌트 없이 URP 전용 발광 셰이더로 표시합니다.
+런타임에는 Renderer.material이나 MaterialPropertyBlock을 사용하지 않습니다.
+동일한 색상/강도/ON/OFF 상태는 공유 머티리얼 변형을 캐시하여 재사용합니다.
+사용하지 않는 변형은 최대 32개까지만 유지합니다. 현재 사용 중인 변형은 별도로 보존합니다.
+색상을 매 프레임 계속 바꾸는 애니메이션보다 상태 변경을 중심으로 한 신호 제어에 맞춘 방식입니다.
+
+에디터 미리보기에서만 Property Block을 사용합니다.
+이렇게 하면 Scene/Prefab 저장 시 임시 런타임 머티리얼 참조가 저장되지 않습니다.
+Play 진입 시 미리보기 블록을 제거하고 런타임 공유 머티리얼 방식으로 전환합니다.
+Domain Reload/Scene Reload를 끈 Play Mode 진입도 다시 초기화합니다.
+
+URP 셰이더는 UnityPerMaterial 버퍼를 사용하며, 금속/외함은 URP Lit 머티리얼을 사용합니다.
+SRP Batcher 호환 구조가 곧 드로우콜 병합이나 특정 FPS 보장을 뜻하지는 않습니다.
+실제 프로젝트에서 Window > Analysis > Frame Debugger와 Profiler로 확인해야 합니다.
+보행자 숫자는 세그먼트별 접근을 유지하므로 대량 배치 시 추가 최적화 대상입니다.
+
+11. 발광 주변의 번짐이 필요할 때
+
+렌즈 자체의 발광과 주변으로 번지는 Bloom은 별도입니다.
+URP 카메라의 Post Processing과 Volume의 Bloom을 사용하는 프로젝트 설정을 확인합니다.
+스크립트는 카메라, 전체 렌더 파이프라인 또는 기존 Volume 설정을 자동 변경하지 않습니다.
+
+12. 확인 메뉴와 검증 범위
+
+생성한 TrafficLight_Modular 루트를 선택합니다.
+Tools > Traffic Lights > Validate Selected Assembly를 실행합니다.
+임시 복사본에서 1/2/3개 구성, 불빛 연결, 기둥 부품, 개별 제어, 보행자 종류 등을 검사하고 복사본을 제거합니다.
+Console에 PASS 또는 실패 항목이 표시됩니다.
+
+제작 환경에서 확인한 내용:
+  Unity 2022.3.19f1 실제 DLL을 참조한 Runtime / Editor / Examples 컴파일 통과
+  UNITY_EDITOR가 없는 Player 빌드 조건의 C# 컴파일 통과
+  개수 제한, 접두어, 0~99 숫자, 막대 표시 등 5,045개 규칙 단언 통과
+  두 FBX에서 설치 도구가 요구하는 총 55개 이름과 머티리얼 명칭 확인 통과
+
+아직 완료하지 않은 내용:
+  Unity 에디터 내 실제 Prefab 생성, URP 셰이더 컴파일/렌더링, Play Mode 및 성능 측정
+  앞선 Unity 실행은 로컬 LicensingClient IPC 연결 실패로 중단되었습니다.
+  C# 컴파일/규칙 검사는 실제 렌더링 및 게임 실행 검사를 대신하지 않습니다.
+
+다음 자료도 포함되어 있습니다.
+  ValidationReport.json: 검증 범위 및 결과
+  ModelBindingValidation.json: FBX 이름 연결 검사 결과
+
+구현에 참고한 Unity 공식 문서:
+URP 14 커스텀 셰이더와 UnityPerMaterial:
+https://docs.unity.cn/Packages/com.unity.render-pipelines.universal@14.0/manual/urp-shaders/birp-urp-custom-shader-upgrade-guide.html
+MaterialPropertyBlock과 SRP Batcher 제약:
+https://docs.unity.cn/2023.1/Documentation/ScriptReference/MaterialPropertyBlock.html
+OnValidate의 호출 제약:
+https://docs.unity.com/en-us/engine/6000.7/script-reference/unityengine/monobehaviour/onvalidate

@@ -1,0 +1,35 @@
+{
+  "targetUnity": "2022.3.19f1",
+  "targetPipeline": "URP 14",
+  "csharpCompilation": {
+    "runtimeEditorDefines": "PASS",
+    "editorAssembly": "PASS",
+    "exampleAssembly": "PASS",
+    "playerWithoutEditorReferences": "PASS",
+    "method": "Roslyn compiler with actual installed Unity 2022.3.19f1 reference DLLs; no substitute Unity stubs"
+  },
+  "rules": {
+    "passed": true,
+    "assertions": 5045,
+    "coverage": [
+      "Signal and sign count boundaries",
+      "Exact case-sensitive WIDTH_/LENGTH_ prefixes",
+      "Digits 0 through 99 including source units/tens wiring",
+      "Leading zero blanking",
+      "Bar bounds and monotonicity",
+      "Independent vehicle aspects"
+    ]
+  },
+  "fbxBindings": {
+    "passed": true,
+    "expectedNames": 55,
+    "report": "ModelBindingValidation.json"
+  },
+  "notVerified": [
+    "Unity editor prefab generation",
+    "Unity URP shader compilation and rendering",
+    "Play Mode and performance"
+  ],
+  "unityExecutionNote": "Previous editor launch failed connecting to LicensingClient IPC. No Unity rendering or gameplay pass is claimed.",
+  "userVerificationMenu": "Tools > Traffic Lights > Validate Selected Assembly"
+}

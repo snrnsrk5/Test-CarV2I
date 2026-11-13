@@ -1,0 +1,7 @@
+{
+  "name": "ModularTrafficLights.Editor",
+  "rootNamespace": "ModularTrafficLights.Editor",
+  "references": ["ModularTrafficLights.Runtime"],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": true
+}

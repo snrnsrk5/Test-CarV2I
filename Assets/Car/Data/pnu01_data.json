@@ -1,0 +1,339 @@
+{
+ "vehicleName": "PNU01",
+ "paint": "PNU BLUE (PANTONE 2945 C) sRGB #004C97",
+ "anchors": [
+  {
+   "name": "FX_Cam_BPillarL",
+   "group": "Sensors_Cameras",
+   "type": "camera",
+   "pos": [
+    -0.82377,
+    1.189,
+    -0.325
+   ],
+   "dir": [
+    -1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "name": "FX_Cam_BPillarR",
+   "group": "Sensors_Cameras",
+   "type": "camera",
+   "pos": [
+    0.82344,
+    1.189,
+    -0.325
+   ],
+   "dir": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "name": "FX_Cam_FenderL",
+   "group": "Sensors_FenderPods",
+   "type": "camera",
+   "pos": [
+    -0.886,
+    0.97135,
+    1.16116
+   ],
+   "dir": [
+    -0.0,
+    0.0,
+    1.0
+   ]
+  },
+  {
+   "name": "FX_Cam_FenderR",
+   "group": "Sensors_FenderPods",
+   "type": "camera",
+   "pos": [
+    0.886,
+    0.97109,
+    1.16116
+   ],
+   "dir": [
+    -0.0,
+    0.0,
+    1.0
+   ]
+  },
+  {
+   "name": "FX_Cam_Rear",
+   "group": "Sensors_Cameras",
+   "type": "camera",
+   "pos": [
+    -0.0,
+    0.62179,
+    -2.61751
+   ],
+   "dir": [
+    -0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "name": "FX_Cam_Tower_Front",
+   "group": "Sensors_RoofTower",
+   "type": "camera",
+   "pos": [
+    -0.0,
+    1.57586,
+    -0.12222
+   ],
+   "dir": [
+    -0.0,
+    0.0,
+    1.0
+   ]
+  },
+  {
+   "name": "FX_Cam_Windshield",
+   "group": "Sensors_Cameras",
+   "type": "camera",
+   "pos": [
+    -0.0,
+    1.37263,
+    0.31168
+   ],
+   "dir": [
+    -0.0,
+    0.0,
+    1.0
+   ]
+  },
+  {
+   "name": "FX_Lidar_FL",
+   "group": "Sensors_CornerLidar",
+   "type": "lidar",
+   "pos": [
+    -0.75831,
+    0.487,
+    2.23467
+   ],
+   "dir": [
+    -0.55866,
+    0.0,
+    0.8294
+   ]
+  },
+  {
+   "name": "FX_Lidar_FR",
+   "group": "Sensors_CornerLidar",
+   "type": "lidar",
+   "pos": [
+    0.75832,
+    0.487,
+    2.23465
+   ],
+   "dir": [
+    0.55911,
+    0.0,
+    0.82909
+   ]
+  },
+  {
+   "name": "FX_Lidar_FenderL",
+   "group": "Sensors_FenderPods",
+   "type": "lidar",
+   "pos": [
+    -0.886,
+    1.02236,
+    1.095
+   ],
+   "dir": [
+    -1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "name": "FX_Lidar_FenderR",
+   "group": "Sensors_FenderPods",
+   "type": "lidar",
+   "pos": [
+    0.886,
+    1.02211,
+    1.095
+   ],
+   "dir": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "name": "FX_Lidar_RL",
+   "group": "Sensors_CornerLidar",
+   "type": "lidar",
+   "pos": [
+    -0.83399,
+    0.655,
+    -2.50418
+   ],
+   "dir": [
+    -0.7992,
+    0.0,
+    -0.60107
+   ]
+  },
+  {
+   "name": "FX_Lidar_RR",
+   "group": "Sensors_CornerLidar",
+   "type": "lidar",
+   "pos": [
+    0.83379,
+    0.655,
+    -2.50399
+   ],
+   "dir": [
+    0.7992,
+    0.0,
+    -0.60107
+   ]
+  },
+  {
+   "name": "FX_Lidar_Top",
+   "group": "Sensors_RoofTower",
+   "type": "lidar",
+   "pos": [
+    -0.0,
+    1.69807,
+    -0.51
+   ],
+   "dir": [
+    -0.0,
+    0.0,
+    1.0
+   ]
+  },
+  {
+   "name": "FX_Radar_FL",
+   "group": "Sensors_Radar",
+   "type": "radar",
+   "pos": [
+    -0.73775,
+    0.3,
+    2.19191
+   ],
+   "dir": [
+    -0.52148,
+    0.0,
+    0.85326
+   ]
+  },
+  {
+   "name": "FX_Radar_FR",
+   "group": "Sensors_Radar",
+   "type": "radar",
+   "pos": [
+    0.73776,
+    0.3,
+    2.19189
+   ],
+   "dir": [
+    0.52336,
+    0.0,
+    0.85211
+   ]
+  },
+  {
+   "name": "FX_Radar_Front",
+   "group": "Sensors_Radar",
+   "type": "radar",
+   "pos": [
+    -0.0,
+    0.487,
+    2.40972
+   ],
+   "dir": [
+    -0.0,
+    0.0,
+    1.0
+   ]
+  },
+  {
+   "name": "FX_Radar_RL",
+   "group": "Sensors_Radar",
+   "type": "radar",
+   "pos": [
+    -0.87068,
+    0.56,
+    -2.30099
+   ],
+   "dir": [
+    -0.96648,
+    0.0,
+    -0.25674
+   ]
+  },
+  {
+   "name": "FX_Radar_RR",
+   "group": "Sensors_Radar",
+   "type": "radar",
+   "pos": [
+    0.87038,
+    0.56,
+    -2.3009
+   ],
+   "dir": [
+    0.96648,
+    0.0,
+    -0.25674
+   ]
+  },
+  {
+   "name": "FX_Radar_Rear",
+   "group": "Sensors_Radar",
+   "type": "radar",
+   "pos": [
+    -0.0,
+    0.462,
+    -2.64263
+   ],
+   "dir": [
+    -0.0,
+    0.0,
+    -1.0
+   ]
+  }
+ ],
+ "groups": [
+  "Sensors_RoofTower",
+  "Sensors_CornerLidar",
+  "Sensors_FenderPods",
+  "Sensors_Cameras",
+  "Sensors_Radar",
+  "Sensors_Wrap"
+ ],
+ "spinPivots": [
+  "LidarTop_Spin",
+  "FP_Lidar_L_Spin",
+  "FP_Lidar_R_Spin"
+ ],
+ "wheelRadius": 0.357,
+ "wheelBase": 3.005,
+ "track": 1.66,
+ "driverEye": [
+  -0.37,
+  1.12,
+  -0.2
+ ],
+ "steeringAxis": [
+  -0.0,
+  0.37461,
+  -0.92718
+ ],
+ "wheelStyles": [
+  "RimA",
+  "RimB",
+  "RimC",
+  "RimD"
+ ],
+ "defaultWheelStyle": 3
+}
